@@ -1,0 +1,96 @@
+.logo {
+	background-size: 272px 92px;
+	width: 272px;
+	height: 92px;
+}
+
+#location-text {
+	position: relative;
+	width: 100px; height: 20px;
+	top:-25px;
+	right: -125px;
+}
+
+#searchbar {
+	width: 400px; height: 28px;
+	font-size: 16pt;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #DEDEDE;
+	border-width: 1px;
+}
+
+#searchbut_n, #searchbut_l {
+	width: 150px;height: 30px;
+	text-align: center;
+	background-color: #EFEFEF;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #DEDEDE;
+	border-width: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#searchbut_n:hover, #searchbut_l:hover {
+	background-color: #DEDEDE;
+}
+
+.nav, .footer {
+	height: 38px;
+	font-size: 18pt;
+}
+
+.nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 10px;
+}
+
+.footer {
+	position: absolute;
+	background-color: #EFEFEF;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: inline;
+	padding-top: 10px;
+	border-top: solid 2px #AAA;
+}
+
+.nav a:link, .nav a:visited, .footer a:link, .footer a:visited {
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+
+.nav ul, .footer ul {
+	list-style-type: none;
+	margin: 0px 10px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav ul{
+	float:right;
+	position: fixed top;
+}
+
+.nav li, .footer li {
+	padding: 5px 5px 5px 5px;
+	display: inline;
+	width: 40px;
+}
+
+#navName {
+	color: #AAA;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
